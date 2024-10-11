@@ -1,0 +1,96 @@
+*{
+    padding: 0px;
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: bisque;padding: 2rem;
+    position: fixed;
+    width: 100vw;
+    height: 78px;
+    top: 0;
+    left: 0;
+    right: 0;
+
+}
+
+
+.main-header .nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    color: blue;
+    font-weight: bolder;
+
+}
+
+.nav-bar a {
+    text-decoration: none;
+    padding: 20px;
+}
+.Home-content{
+    background-position: center;
+    image-orientation: cover;
+    background-image: url(./asset/a.webp);
+    background-size: cover;
+    padding-top: 100px;
+    color: deeppink;
+    background-attachment: fixed;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    height: 500px;
+    text-align: center;
+}
+
+
+.gallery-container {
+    display: flex;
+    gap: 60px;
+    padding: 30px;
+    margin: 50px;
+}
+
+.Logo {
+    background-color: cornsilk;
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+}
+.title p {
+    margin: 10px 0 0;
+    font-size: 14px;
+}
+
+
+
+
+.About-us {
+    display: flex;
+    gap: 60px;
+    padding: 40px;
+    margin: 50px;
+}
+.Photo-gallery{
+    background-color: cornsilk;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+.tittle p {
+    margin:7px 0 0;
+    font-size: 14px;
+}
+.contact-form {
+    max-width: 600px;      
+    margin: 0 auto;    
+    padding: 20px;         
+    background-color: #f9f9f9; 
+    border-radius: 8px;    
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
